@@ -1,0 +1,113 @@
+.stepmaindiv{
+    margin: auto;
+}
+.buttondiv{
+display:flex;
+justify-content: space-evenly;
+margin-top:200px;
+}
+/* properties overrided */
+.steps-content {
+    min-height: 200px;
+    padding-top: 40px;
+    text-align: center;
+    border-radius: 2px;
+    margin: auto;
+  }
+
+  .ant-steps-item-finish .ant-steps-item-icon {
+    border: none;
+    background-color:#00B530 ;
+    color: white;
+
+}
+.ant-steps-item-icon {
+    width:30px;
+    height:30px;
+    /* margin: 0 8px 0 0; */
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    line-height: 32px;
+    text-align: center;
+    /* border: 1px solid rgba(0, 0, 0, 0.25); */
+    border-radius: 32px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+html {
+    --antd-wave-shadow-color:red !important;
+    --scroll-bar: 0;
+}
+.ant-steps-item-finish .ant-steps-item-icon > .ant-steps-icon {
+    color: white;
+}
+::selection {
+    color: #fff;
+}
+
+.ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title {
+    font-size:22px;
+    transform: scale(0 0.2);
+    transition:0.3s;
+    border-bottom:9px solid #FAA81D;
+    width:70px;
+    color: #086288 !important;
+    font-weight: bold;
+}
+.ant-steps-item-title {
+    margin-right: 20px;
+    position: relative;
+    display: inline-block;
+    padding-right: 16px;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+    line-height: 32px;
+}
+.ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-icon
+    ,.ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title::after 
+    ,.ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title::after ,.ant-steps-item-wait > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title::after {
+    display: none;
+}
+.ant-steps-horizontal:not(.ant-steps-label-vertical) .ant-steps-item {
+    padding-left:0px;
+    white-space:nowrap;
+}
+.ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title {
+    font-weight: bold;
+    color: #086288;
+}
+.ant-btn-primary {
+    color: #fff;
+    border-color:#086288;
+    background:#086288;
+    border-radius: 5px;
+    /* text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+    box-shadow: 0 2px 0 rgb(0 0 0 / 5%); */
+}
+.ant-btn-primary:hover, .ant-btn-primary:focus {
+    color: #fff;
+    border-color: #086288;
+    background: #086288;
+    border-radius: 5px;
+}
+.ant-btn {
+    color: white;
+    border-color: #086288;
+    background: #086288;
+    border-radius: 5px;
+}
+.ant-btn:hover, .ant-btn:focus, .ant-btn:active {
+    /* text-decoration: none; */
+    background: #086288;
+    color: white;
+    border-radius: 5px;
+}
+.ant-steps-item-wait .ant-steps-item-icon {
+    background-color: #fff;
+    border-color: rgba(0, 0, 0, 0.25);
+    visibility: hidden;
+}
+.stepbroder{
+    display: flex;
+    justify-content: space-evenly;
+}

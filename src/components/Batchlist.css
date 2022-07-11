@@ -1,0 +1,40 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+.reqp{
+    padding-top: 42px;
+    color: #086288;
+}
+.batchl{
+    display: flex;
+    background-color: white;
+}
+.searc{
+    height: 36px;
+    width: 25%;
+    border-radius: 5px;
+    margin: 5px;
+    margin-left: 710px;
+}
+.batchnew{
+    margin: 5px;
+    margin-left:4px;
+    border-radius: 4px;
+    color: white !important;
+    background-color: #FAA81D !important;
+    border: none;
+    width: 100px;
+    height:36px;
+
+}
+.par{
+    padding: 5px;
+    color: #FAA81D;
+}
+.drop{
+    color: white;
+    background-color: #086288;
+    border-radius: 10px;
+    border: none;
+}

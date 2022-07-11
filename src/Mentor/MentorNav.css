@@ -1,0 +1,71 @@
+#logoBL{
+    height: 50px;
+    border: none;
+    
+    }
+
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+.MNavsearch{
+    width: 90%;
+    height: 35px;
+    margin-top: -10px;
+    margin-left: 20px;
+}
+#g_search{
+    border: none;
+    margin: 0px auto;
+    height:10px;
+    width:600px !important;
+}
+#logout{
+    color: #075575 !important;
+    border: 1px solid #075575;
+}
+
+.dashbtn{
+    
+    background: url("../../public/Mentor/dashboard\ \(3\)@2x.png");
+    height: 68px;
+    width: 68px;
+    background-size: 70%;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    border: none;
+}
+.dashp{
+    padding-top: 45px;
+    color: #086288;
+}
+.mbatchbtn{
+    background: url("../../public/Mentor/group\ \(1\)@2x.png");
+    height: 68px;
+    width: 68px;
+    background-size: 70%;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    border: none; 
+}
+.mbatchp{
+    padding-top: 42px;
+    color: #086288;
+}
+.drpdwn{
+    color:#43425D;
+    margin-left: 10px;
+    height: 5px;
+}
+.MdropdownName{
+    color: #43425D;
+}
+.MdropdownName:hover{
+    transform: scale(1.5,1.5);
+    margin-left: 30px;
+    color: #086288;
+
+}

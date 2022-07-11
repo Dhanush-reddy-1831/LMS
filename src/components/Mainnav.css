@@ -1,0 +1,65 @@
+#logoBL{
+    /* border: 1px solid orange; */
+    /* padding: 20px; */
+    height: 50px;
+    border: none;
+    
+    }
+
+.logo{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    
+}
+#g_search{
+    /* width: 500px; */
+    border: none;
+    margin: 0px auto;
+    height:10px;
+    width:600px !important;
+}
+#logout{
+    color: #075575 !important;
+    border: 1px solid #075575;
+}
+
+.batchbtn{
+    
+    background: url("../../public/Page_2/group\ \(1\)@2x.png");
+    height: 68px;
+    width: 68px;
+    background-size: 70%;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    border: none;
+}
+.batchp{
+    padding-top: 42px;
+    color: #086288;
+}
+.mentorbtn{
+    background: url("../../public/Page_2/team\ \(4\)@2x.png");
+    height: 68px;
+    width: 68px;
+    background-size: 70%;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    border: none; 
+}
+.mentorp{
+    padding-top: 42px;
+    color: #086288;
+}
+.reqbtn{
+    background: url("../../public/Page_2/add-user\ \(2\)@2x.png");
+    height: 68px;
+    width: 68px;
+    background-size: 70%;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    border: none; 
+}

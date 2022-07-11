@@ -1,0 +1,57 @@
+#EmplogoBL{
+    height: 50px;
+    border: none;
+    
+    }
+
+.Emplogo{
+    display: flex;
+    align-items: center;
+    
+}
+.EmpNavsearch{
+    width: 90%;
+    height: 35px;
+    margin-top: -10px;
+    margin-left: 20px;
+}
+#Emp_search{
+    border: none;
+    margin: 0px auto;
+    height:10px;
+    width:600px !important;
+}
+#logout{
+    color: #075575 !important;
+    border: 1px solid #075575;
+}
+
+
+
+.Empdashhbtn{
+    background: url(".../../../../public/Mentor/dashboard\ \(3\)@2x.png");
+    height: 68px;
+    width: 68px;
+    background-size: 70%;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    border: none; 
+}
+.Empdashp{
+    padding-top: 45px;
+    color: #086288;
+}
+.drpdwn{
+    color:#43425D;
+    margin-left: 10px;
+    height: 5px;
+}
+.dropdownName{
+    color: #43425D;
+}
+.dropdownName:hover{
+    transform:scale(1.4,1.5);
+    color: #086288;
+
+}

@@ -1,0 +1,54 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+.reqp{
+    padding-top: 42px;
+    color: #086288;
+}
+.reql{
+    display: flex;
+    background-color: white;
+}
+.rsearc{
+    height: 36px;
+    width: 25%;
+    border-radius: 5px;
+    margin: 5px;
+    margin-left: 780px;
+    border: none;
+}
+.rpar{
+    color: #FAA81D;
+    padding: 5px;
+    width: 90px;
+}
+.approve{
+    border-radius: 7px;
+    background-color:#00811A80 !important ;
+    border: #00811A80 !important;
+    color: #00811A !important;
+    font-weight: 200px;
+    
+}
+
+.approve:hover{
+    background-color:#00811A !important;
+    color: white !important;
+    font-weight: 200px;
+    
+}
+
+.reject{
+    border-radius: 7px;
+    background-color:#B2000C80 !important;
+    border: #B2000C80 !important;
+    font-weight: 200px;
+    color: #CE000E !important;
+}
+.reject:hover{
+    background-color:#CE000E !important;
+    color: white !important;
+    font-weight: 200px;
+
+}

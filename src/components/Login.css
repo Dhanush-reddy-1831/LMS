@@ -1,0 +1,55 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+#mainDiv{
+    background: url("../../public/Assets/black_BG@2x.png");
+    height: 625px;
+    width: 100%;
+    background-size: cover;
+}
+#subDiv{
+    background: url("../../public/Assets/light_bg@2x.png");
+    height: 625px;
+    width: 100%;
+    opacity: 0.6;
+    background-size:100%;
+}
+#darkimg{
+    background-image: url("../../public/Assets/Mainbg@2x.png");
+    position: absolute;
+    top: 67px;
+    left: 300px;
+    height: 500px;
+    width: 60%;
+    background-size: cover;
+    border: 1px solid green;
+    display: flex;
+    direction: rtl;
+}
+#logodiv{
+    border: 1px solid red;
+    background-color: rgba(255,255,255,0.4);
+    width:325px;
+
+}
+#logoimg{
+/* border: 1px solid orange; */
+padding: 20px;
+height: 91px;
+}
+
+#loginH{
+text-align: center;
+font: normal normal normal 37px/191px Abril Fatface;
+letter-spacing: 0px;
+opacity: 1;
+color: #FFAA17;
+
+}
+#card{
+    position: absolute;
+    bottom: 100px;
+    left: 62%;
+}
+

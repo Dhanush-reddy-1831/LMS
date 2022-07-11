@@ -1,0 +1,13 @@
+.heading{
+    color: #086288;
+}
+.switchclr{
+    display: flex;
+    justify-content: space-around;
+}
+button.ant-switch.ant-switch-checked{
+    background: green;
+}
+button.ant-switch{
+    background: red;
+}

@@ -1,0 +1,99 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+.MELreqp{
+    padding-top: 42px;
+    color: #086288;
+}
+.MELmentorl{
+    display: flex;
+    background-color: white;
+}
+.MELsearc{
+    height: 36px;
+    width: 25%;
+    border-radius: 5px;
+    margin: 5px;
+    margin-left: 600px;
+    /* border: none; */
+}
+.MELmentornew{
+    margin: 5px;
+    margin-left:4px;
+    border-radius: 4px;
+    color: white !important;
+    background-color: #FAA81D !important;
+    border: none;
+    width: 110px;
+    height:36px;
+    
+
+}
+.MELpar{
+    color: #FAA81D;
+    padding: 9px;
+}
+.MELpar1{
+    color: #363636;
+    padding: 9px;
+}
+.Mdrop{
+    
+    color: white;
+    background-color: #086288;
+    border-radius: 10px;
+    border: none;
+}
+#headtext{
+    color:#FAA81D;
+    position: absolute;
+    left:auto;
+    top:6px
+    
+}
+#head{
+    /* border: 1px solid black; */
+    width:88.7%;
+    height: 40px;
+    position: absolute;
+ right: 48px;
+  background-color: white;
+  margin-top: -300px;
+}
+#btndwn{
+    background: #F0F0F0 !important;
+    border: 1px solid #CFCFCF !important ;
+    color: #707070 !important;
+    position: absolute;
+    left: 1050px;
+    height: 30px;
+    top:4px
+}
+#buttonheader{
+    background-color: #FAA81D;
+    color: white;
+    height: 30px;
+     
+    position: absolute;
+    top: 3px;
+    right: 20px;
+}
+#headtext1{
+    color: black;
+    font-size: medium;
+    position: absolute;
+    left:130px;
+    top:5px;
+}
+
+    #headinp{
+        width: 25%;
+        height: 30px;
+        position: absolute;
+        top: 4px;
+        right: 140px;
+        left:700px
+    }
+
+

@@ -1,0 +1,42 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+.reqp{
+    padding-top: 42px;
+    color: #086288;
+}
+.mentorl{
+    display: flex;
+    background-color: white;
+}
+.Msearc{
+    height: 36px;
+    width: 25%;
+    border-radius: 5px;
+    margin: 5px;
+    margin-left: 690px;
+    /* border: none; */
+}
+.mentornew{
+    margin: 5px;
+    margin-left:4px;
+    border-radius: 4px;
+    color: white !important;
+    background-color: #FAA81D !important;
+    border: none;
+    width: 110px;
+    height:36px;
+    
+
+}
+.Mpar{
+    color: #FAA81D;
+    padding: 5px;
+}
+.Mdrop{
+    color: white;
+    background-color: #086288;
+    border-radius: 10px;
+    border: none;
+}
