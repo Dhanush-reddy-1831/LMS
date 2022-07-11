@@ -8,6 +8,7 @@ import { Content } from "antd/lib/layout/layout";
 import { DownOutlined } from "@ant-design/icons";
 import FloatingLabel from "react-bootstrap/FloatingLabel";
 import "./MentorEmpList.css"
+import GiveRatingModel from './GiveRatingModel';
 
 
 function MentorEmpList() {
@@ -437,6 +438,9 @@ function MentorEmpList() {
             </Modal>
                 </Content>
               </Layout>
+              <GiveRatingModel
+        lgShow={lgshow}
+        handleLgClose={handleLgClose} />
             </Layout>
     
              {/* adding */}
